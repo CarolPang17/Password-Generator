@@ -102,7 +102,7 @@ var specialCharOrNot = function () {
 };
 
 function getspecialChar() {
-  var symbols = "!@#$%^&*(){}[]=<>/,.";
+  var symbols = "!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
   return symbols[Math.floor(Math.random() * symbols.length)];
 }
 
